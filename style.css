@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+}
+.sect1{
+    background: white;
+}
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 20px;
+}
+li{
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+}
+ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+.sect1{
+   margin: auto;
+   margin-top: 60px;
+   width: 80%;
+}
+.first-img{
+    background-image: url("./images/Ellipse\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-left: 150px;
+    
+}
+.ellipse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ellipse-sect{
+    margin-top: 40px;
+}
+h1{
+    width: 100%;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+p{
+    width: 70%;
+    font-size: 1em;
+}
+button{
+    margin-top: 20px;
+    
+    padding: 10px;
+    background-color: #FF6464;
+    border: none;
+    border-radius: 3px;
+}
+.sect2{
+    background-color: #EDF7FA;
+   
+}
+.forRecent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    
+    padding: 50px;
+    font-size: 13px;
+}
+.scratch{
+    background-color: #ffff;
+    margin-right: 50px;
+    line-height: 20px;
+    width: 27em;
+    padding: 30px;
+}
+
+.recent{
+    font-size: 16px;
+}
+.view-all{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+.pixel{
+    background-color: #ffff;
+    margin-right: 50px;
+    width: 27em;
+    line-height: 20px;  
+    padding: 20px;
+}
+h3{
+    font-size: 1.7em;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.date{
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 10px;
+    line-height: 40px;
+}
+.des{
+    margin: 10px;
+    font-size: 14px;
+}
+.sect3{
+    margin-top: -80px;
+    margin-left: 70px;
+}
+h6{
+    padding: 20px 0px 20px 10px;
+    font-size: 20px;
+}
+.rect30{
+    display: flex;
+   padding-bottom: 20px;
+   border-bottom: 2px solid #E0E0E0;
+   width: 67em;
+}
+.rect32{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid #E0E0E0;
+    width: 67em;
+}
+.rect34{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid #E0E0E0;
+    width: 67em;
+}
+.stories{
+    margin-left: 30px;
+}
+h4{
+    font-size: 1.3em;
+    padding-bottom: 17px;
+}
+.year{
+    border-radius: 50%;
+    background-color: #142850;
+    color: white;
+    padding: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.dash{
+    color: #8695A4;
+}
+.dash-para{
+    color: #21243d;
+    font-size: 1em;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+.last-para{
+    font-size: 10px;
+}
+.icons{
+    margin: 20px 50px 5px 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .ellipse{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .first-img{
+        margin: auto;
+    }
+    .ellipse-sect{
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+        font-size: 3em;
+    }
+    p{
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+    button{
+        position: absolute;
+        text-align: center;
+        margin-left: 110px;
+    }
+    .forRecent{
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+    }
+    .view-all{
+        display: none;
+    }
+    .pixel{
+        margin-top: 30px;
+    }
+    .sect3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .rect30{
+        display: flex;
+       flex-direction: column;
+       padding-bottom: 20px;
+       border-bottom: 2px solid #E0E0E0;
+       width: 20em;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    .rect32{
+        display: none;
+        
+    }
+    .rect34{
+        display: none;
+    }
+    .rects{
+        width: 200px;
+    }
+    .stories{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .dash-para{
+        
+        font-size: em;
+    }
+}
