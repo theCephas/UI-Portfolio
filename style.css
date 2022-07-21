@@ -5,12 +5,8 @@
 }
 body{
     font-family: 'Heebo', 'sans-serif';
-    margin: auto;
 }
-.sect1{
-    margin-top: 30px;
-    margin-left: 20px;
-}
+
 .nav-bar{
     display: flex;
     justify-content: flex-end;
@@ -19,7 +15,7 @@ ul{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px 0px 10px 0px;
 }
 li{
     text-align: right;
@@ -31,23 +27,24 @@ ul > li > a{
     text-decoration: none;
     color: black;
 }
-.sect1{
-   padding: 60px;
-   width: 100%;
-}
+
 .first-img{
     background-image: url("./images/Ellipse\ 2.png");
     background-repeat: no-repeat;
     background-position: bottom left;
-    margin-right: 50px;
+    margin: auto;
 }
 .ellipse{
+    padding: 7em;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    /*margin: 5em 5em 2em 7em;*/
 }
 .ellipse-sect{
-    margin-top: 40px;
-    margin-left: 100px;
+   /* width: 50em;*/
+
 }
 h1{
     width: 100%;
@@ -57,31 +54,31 @@ h1{
 p{
     width: 70%;
     font-size: 1em;
+    line-height: 20px;
 }
 button{
-    position: absolute;
     margin-top: 20px;
-    padding: 10px;
+    padding: 1em;
+    font-weight: 540;
+    width: 15em;
+    color: white;
     background-color: #FF6464;
     border: none;
     border-radius: 3px;
 }
-.sect2{
-    background-color: #EDF7FA;
-}
 .forRecent{
+    background-color: #EDF7FA;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 100px;
-    padding: 50px;
+    padding: 5em 0em 5em 0em;
     font-size: 13px;
 }
 .scratch{
     background-color: #ffff;
-    margin-right: 20px;
     line-height: 20px;
-    width: 27em;
+    width: 35em;
+    height: 20em;
     padding: 30px;
 }
 .sect3{
@@ -95,10 +92,15 @@ button{
     justify-content: flex-end;
     margin-right: 50px;
 }
+.view-all > a{
+    color: blue;
+    text-decoration: none;
+}
 .pixel{
     background-color: #ffff;
-    margin-right: 20px;
-    width: 27em;
+    /*margin-right: 20px;*/
+    width: 35em;
+    height: 20em;
     line-height: 20px;  
     padding: 30px;
 }
@@ -118,8 +120,7 @@ h3{
     font-size: 14px;
 }
 .sect3{
-    margin-top: -80px;
-    margin-left: 70px;
+    padding: 3em 5em 5em 7em;
 }
 h6{
     padding: 20px 0px 20px 10px;
@@ -129,24 +130,24 @@ h6{
     display: flex;
    padding-bottom: 20px;
    border-bottom: 2px solid #E0E0E0;
-   width: 40em;
+   width: 70em;
 }
 .rect32{
     display: flex;
     padding-bottom: 20px;
     padding-top: 20px;
     border-bottom: 2px solid #E0E0E0;
-    width: 40em;
+    width: 70em;
 }
 .rect34{
     display: flex;
     padding-bottom: 20px;
     padding-top: 20px;
     border-bottom: 2px solid #E0E0E0;
-    width: 40em;
+    width: 70em;
 }
 .stories{
-    margin-left: 30px;
+   /* margin-left: 30px;*/
 }
 h4{
     font-size: 1.3em;
@@ -177,22 +178,35 @@ footer{
     
 }
 .rects{
-    width: 270px;
-    height: 220px;
+    width: 200px;
+    height: 120px;
 }
 .last-para{
     font-size: 10px;
 }
 .icons{
-    margin: 20px 50px 5px 50px;
+    display: flex;
+    justify-content: space-around;
+   
 }
-
-@media screen and (max-width: 600px) {
+#insta-logo{
+    padding-left: 2em;
+}
+#fb-logo{
+    padding-right: 2em;
+}
+#twit-logo{
+    padding-right: 2em;
+}
+#link-logo{
+    padding-left: 2em;
+}
+@media screen and (max-width: 400px) {
     .ellipse{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        padding: 20px 0px 20px 0px;
     }
     
     .first-img{
@@ -206,25 +220,28 @@ footer{
         font-size: 2.5em;
     }
     p{
-        position: relative;
+        position: static;
         margin: auto;
         text-align: center;
     }
     button{
-        position: static;
         text-align: center;
-        margin-left: 80px;
+        margin-left: 50px;
         
     }
     .forRecent{
         display: flex;
         flex-direction: column;
-        margin-right: 60px;
+        
     }
     .view-all{
         display: none;
     }
+    .scratch{
+        width: 22em;
+    }
     .pixel{
+        width: 22em;
         margin-top: 30px;
     }
     .sect3{
@@ -232,8 +249,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 2px;
-        
+        padding: 0em;
     }
     .rect30{
         display: flex;
@@ -253,22 +269,18 @@ footer{
         display: none;
     }
     .rects{
-        width: 200px;
-        height: 150px;
+        width: 300px;
+        height: 200px;
     }
     .stories{
-        display: flex;
-        flex-direction: column;
-        margin: 5px;
-        justify-content: center;
-        align-items: center;
+       width: 20em;
     }
     h4{
         font-size: 1.1em;
         margin-top: 1px;
     }
     .dash-para{
-        line-height: 5px;
-        font-size: .9em;
+        line-height: 9px;
+        font-size: 1em;
     }
 }
