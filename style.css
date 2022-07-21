@@ -29,7 +29,7 @@ ul > li > a{
 }
 
 .first-img{
-    background-image: url("./images/Ellipse\ 2.png");
+    background-image: url("./images/Ellipse-2.png");
     background-repeat: no-repeat;
     background-position: bottom left;
     margin: auto;
@@ -40,11 +40,6 @@ ul > li > a{
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    /*margin: 5em 5em 2em 7em;*/
-}
-.ellipse-sect{
-   /* width: 50em;*/
-
 }
 h1{
     width: 100%;
