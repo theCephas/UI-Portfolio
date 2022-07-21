@@ -85,12 +85,12 @@ button{
     width: 100%;
 }
 .recent{
-    font-size: 16px;
+    font-size: 18px;
 }
 .view-all{
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-bottom: 10px;
 }
 .view-all > a{
     color: blue;
@@ -98,22 +98,21 @@ button{
 }
 .pixel{
     background-color: #ffff;
-    /*margin-right: 20px;*/
     width: 35em;
     height: 20em;
     line-height: 20px;  
     padding: 30px;
 }
 h3{
-    font-size: 1.7em;
-    line-height: 25px;
+    font-size: 2.2em;
+    line-height: 35px;
     padding-bottom: 10px;
 }
 .date{
     font-size: 14px;
     margin-left: 0px;
     margin-right: 10px;
-    line-height: 40px;
+    line-height: 50px;
 }
 .des{
     margin: 10px;
@@ -130,24 +129,25 @@ h6{
     display: flex;
    padding-bottom: 20px;
    border-bottom: 2px solid #E0E0E0;
-   width: 70em;
+   width: auto;
 }
 .rect32{
     display: flex;
     padding-bottom: 20px;
     padding-top: 20px;
     border-bottom: 2px solid #E0E0E0;
-    width: 70em;
+    width: auto;
 }
 .rect34{
     display: flex;
     padding-bottom: 20px;
     padding-top: 20px;
     border-bottom: 2px solid #E0E0E0;
-    width: 70em;
+    width: auto;
 }
 .stories{
-   /* margin-left: 30px;*/
+    position: static;
+    margin-left: 30px;
 }
 h4{
     font-size: 1.3em;
@@ -178,8 +178,8 @@ footer{
     
 }
 .rects{
-    width: 200px;
-    height: 120px;
+    width: 250px;
+    height: 160px;
 }
 .last-para{
     font-size: 10px;
@@ -251,6 +251,17 @@ footer{
         align-items: center;
         padding: 0em;
     }
+    h3{
+    font-size: 1.5em;
+    line-height: 23px;
+    padding-bottom: 10px;
+}
+.date{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 10px;
+    line-height: 40px;
+}
     .rect30{
         display: flex;
        flex-direction: column;
@@ -274,6 +285,7 @@ footer{
     }
     .stories{
        width: 20em;
+
     }
     h4{
         font-size: 1.1em;
